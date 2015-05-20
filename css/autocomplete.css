@@ -1,0 +1,45 @@
+#list_nom_cli {
+	display: none;
+}
+
+.input_container input {
+	width: 300px;
+	padding: 3px;
+	border: 1px solid #cccccc;
+	border-radius: 0;
+}
+.input_container ul {
+	padding-left: 0px;
+	margin-left: 20px;
+	width: 300px;
+	border: 1px solid #eaeaea;
+	position: absolute;
+	z-index: 9;
+	background: #f3f3f3;
+	list-style: none;
+}
+
+.divg .input_container ul {
+	padding-left: 0px;
+	margin-left: 96px;
+	width: 300px;
+	border: 1px solid #eaeaea;
+	position: absolute;
+	z-index: 9;
+	background: #f3f3f3;
+	list-style: none;
+}
+
+.input_container ul li {
+	padding: 2px;
+	height: 40px;
+	font-size: 20px;
+}
+.input_container ul li:hover {
+	background: #eaeaea;
+}
+
+.input_container li img {
+	float: left;
+	height: 40px;
+}
